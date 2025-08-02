@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spin Hadiah - Si Lapar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Putar Roda Hadiah!</h1>
+
+  <div class="wheel-container">
+    <canvas id="wheel" width="400" height="400"></canvas>
+
+    <div class="si-lapar" id="siLapar">😋</div>
+
+    <div class="input-form">
+      <input type="text" id="nama" placeholder="Nama Kamu" required />
+      <input type="text" id="hp" placeholder="Nomor HP" required />
+    </div>
+
+    <button id="spin">SPIN!</button>
+  </div>
+
+  <p id="result"></p>
+
+  <div class="daftar-pemenang">
+    <h2>🎉 Daftar Pemenang</h2>
+    <ul id="listPemenang"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
